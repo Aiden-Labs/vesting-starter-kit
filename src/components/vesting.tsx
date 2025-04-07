@@ -125,7 +125,7 @@ export default function Vesting({ vesting, account }: Props) {
               <div className="mb-1 text-sm text-muted-foreground">
                 Claimable Amount
               </div>
-              <div className="mb-6 flex items-center gap-2 text-3xl font-bold text-primary">
+              <div className="mb-6 flex items-center gap-2 text-3xl font-bold text-primary dark:text-primary-foreground">
                 <Image
                   src={vesting.token.image}
                   width={24}

@@ -42,12 +42,12 @@ export default function VestingGraph({
             <stop
               offset="5%"
               stopColor="hsl(var(--primary))"
-              stopOpacity={0.3}
+              stopOpacity={0.7}
             />
             <stop
               offset="95%"
               stopColor="hsl(var(--primary))"
-              stopOpacity={0}
+              stopOpacity={0.3}
             />
           </linearGradient>
         </defs>
