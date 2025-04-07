@@ -18,8 +18,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Starter Kit",
-  description: "Starter kit for a Liteflow application",
+  title: "Aiden - Vesting",
+  description: "All Aiden token products in one place",
 };
 
 export default async function RootLayout({
@@ -36,7 +36,7 @@ export default async function RootLayout({
         <Providers cookie={(await headers()).get("cookie") || ""}>
           <Navbar />
           <div className="flex min-h-screen flex-col">
-            <main className="flex flex-grow items-center justify-center px-4 sm:px-6 lg:px-8">
+            <main className="flex flex-grow items-center justify-center px-4 pt-20 sm:px-6 lg:px-8 lg:pt-0">
               {children}
             </main>
             <footer className="flex items-center justify-center gap-1 py-8 text-center text-sm text-muted-foreground">
